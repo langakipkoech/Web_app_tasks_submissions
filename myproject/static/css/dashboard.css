@@ -1,0 +1,40 @@
+/* General Body Styling */
+body {
+    background-color: #f5f7fa;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Card Styling */
+.order-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.order-card:hover {
+    transform: scale(1.03);
+}
+
+.order-card .btn {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+}
+
+/* Selected Card */
+.selected {
+    border: 2px solid #007bff;
+    padding: 10px;
+}
+
+/* Next Button Styling */
+.next-btn {
+    background-color: #ffc107;
+    color: #000;
+    font-weight: bold;
+    border-radius: 5px;
+}

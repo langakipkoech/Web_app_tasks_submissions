@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    command: ["gunicorn", "--bind", "0.0.0.0:8000", "myproject.wsgi:application"]
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
