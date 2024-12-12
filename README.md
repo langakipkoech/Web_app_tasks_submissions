@@ -38,7 +38,7 @@ Make sure you have Docker installed to build the image for easy deployment.
 Clone this repository to your local machine using the following command:
 
 ```bash
-git clone https://github.com/<your_github_username>/Web_app_tasks_submissions.git
+git clone https://github.com/langakipkoech/Web_app_tasks_submissions.git
 cd Web_app_tasks_submissions
 
 pip install -r requirements.txt
